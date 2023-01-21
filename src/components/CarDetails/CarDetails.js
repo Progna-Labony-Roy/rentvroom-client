@@ -4,10 +4,11 @@ import './CarDetails.css'
 
 const CarDetails = () => {
   const carDetails = useLoaderData();
-  const { image, name, color, seat, price } = carDetails;
+  const { image, name, color, seat, price,details } = carDetails;
 
   return (
-      <div className="details-div">
+      <div>
+        <div className="details-div">
         <div className="car-details">
           <img className="card-image1" src={image} alt="" />
           <div className="name-color-seat">
@@ -32,6 +33,10 @@ const CarDetails = () => {
                 </p>
           </div>
         </div>
+      </div>
+      <p className="vehicle-no">Vehicle Number:</p>
+      <p></p>
+      <p className="details">{details}</p>
       </div>
   );
 };

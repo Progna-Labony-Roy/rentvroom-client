@@ -1,11 +1,16 @@
 .details-div{
     width: 70%;
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     border: 1px solid #D5D8DC;
     margin-top: 90px;
     padding: 10px;
+}
+
+.details,.vehicle-no{
+    font-size: 14px;
+    margin-top: 15px;
 }
 
 

@@ -4,7 +4,7 @@
     justify-content: space-between;
     position: fixed;
     bottom:0 ;
-    width: 100%;
+    width: 95%;
 }
 
 .nav-item{
@@ -13,4 +13,25 @@
     margin-right: 20px;
     font-size: 15px;
     font-weight: 600;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+ 
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .nav-items{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
