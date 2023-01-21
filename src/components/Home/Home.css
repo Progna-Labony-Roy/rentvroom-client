@@ -1,0 +1,115 @@
+.home{
+    max-width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    /* height: 300px; */
+}
+
+.first-div{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D5D8DC;
+}
+
+.car-details{
+    display: flex;
+}
+
+.name-color-seat, .price-div{
+    margin: auto 0px;
+}
+.name-color-seat{
+    margin-left: 20px;
+}
+
+.name, .price{
+    font-size: 14px;
+    font-weight: 600;
+}
+.color-seat{
+    display: flex;
+}
+
+.color, .seat{
+    display: flex;
+    color: #85929E;
+    font-size: 12px;
+}
+
+.color{
+    margin-right: 25px;
+}
+
+.icons{
+    margin-right: 10px;
+}
+
+.button{
+    margin: auto 12px;
+}
+
+.booking-btn{
+    margin-right: 12px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .home{
+        max-width: 95%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .car-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-div{
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        border: 1px solid #D5D8DC;
+    }
+
+    .name-color-seat{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin: auto 0px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+     .car-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-div{
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        border: 1px solid #D5D8DC;
+    }
+
+    .name-color-seat{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin: auto 0px;
+    }
+    
+}

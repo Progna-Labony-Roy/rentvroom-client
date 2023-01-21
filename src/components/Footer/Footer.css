@@ -1,0 +1,20 @@
+.footer{
+    margin-top: 50px;
+}
+
+.brand-name{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.address{
+    font-size: 14px;
+}
+
+.social-icons{
+    margin-right: 15px;
+}
+
+.footer-nav{
+    display: flex;
+}
