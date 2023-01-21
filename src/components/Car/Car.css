@@ -1,15 +1,9 @@
-.home{
-    max-width: 80%;
-    margin: auto;
-    padding-top: 60px;
-    /* height: 300px; */
-}
-
 .first-div{
     height: 140px;
     display: flex;
     justify-content: space-between;
     border: 1px solid #D5D8DC;
+    margin-top: 30px;
 }
 
 .car-details{
@@ -64,11 +58,51 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+    .car-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-div{
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        border: 1px solid #D5D8DC;
+    }
 
+    .name-color-seat{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin: auto 0px;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-     
+     .car-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-div{
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        border: 1px solid #D5D8DC;
+    }
+
+    .name-color-seat{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin: auto 0px;
+    }
 }
