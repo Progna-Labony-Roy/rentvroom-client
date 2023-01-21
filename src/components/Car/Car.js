@@ -14,11 +14,11 @@ const Car = ({car, refetch}) => {
             <p className="name">{name}</p>
             <div className="color-seat">
                 <div className="color">
-                <p><i class="icons fa-solid fa-paintbrush"></i></p>
+                <p><i className="icons fa-solid fa-paintbrush"></i></p>
                    <p> {color}</p>
                     </div>
                 <div className="seat">
-                <p><i class="icons fa-solid fa-chair"></i></p>
+                <p><i className="icons fa-solid fa-chair"></i></p>
                     <p>{seat} Seater</p>
                 </div>
             </div>

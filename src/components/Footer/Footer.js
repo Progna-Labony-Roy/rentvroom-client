@@ -10,9 +10,9 @@ const Footer = () => {
                 <p className='address'>Rentvroom Pvt. Ltd.</p>
                 <p className='address'>No: 296, 3rd Cross Rd, Jakkasandra, 1st Block, Koramangla <br /> Bengaluru, Karnataka 560034</p>
                 <div className="icons">
-                <i class="social-icons fa-brands fa-twitter"></i>
-                <i class="social-icons fa-brands fa-square-instagram"></i>
-                <i class="social-icons fa-brands fa-linkedin"></i>
+                <i className="social-icons fa-brands fa-twitter"></i>
+                <i className="social-icons fa-brands fa-square-instagram"></i>
+                <i className="social-icons fa-brands fa-linkedin"></i>
                 </div>
                 <Navbar></Navbar>
             </div>

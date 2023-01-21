@@ -1,9 +1,10 @@
 .first-div{
-    height: 140px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     border: 1px solid #D5D8DC;
     margin-top: 30px;
+    padding: 10px;
 }
 
 .car-details{
@@ -50,9 +51,23 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-    .home{
-        max-width: 95%;
+    .first-div{
+        height: 200px;
+        padding: 1px;
     }
+
+    .name-color-seat{
+        margin-left: 0px;
+    }
+
+    .color{
+        margin-right: 10px;
+    }
+
+    .button{
+        margin: auto 0px;
+    }
+    
 }
 
 
@@ -64,11 +79,10 @@
     }
     
     .first-div{
-        height: 120px;
+        height: 550px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
-        border: 1px solid #D5D8DC;
     }
 
     .name-color-seat{
@@ -90,11 +104,10 @@
     }
     
     .first-div{
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: space-between; */
-        border: 1px solid #D5D8DC;
+        width: 85%;
+        margin: 0px auto 30px;
+        height: 380px;
+        padding: 10px;
     }
 
     .name-color-seat{

@@ -37,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media only screen and (max-width: 992px) {
+  .App{
+    max-width: 90%;
+    margin: 15px auto;
+  }
+  
+}
